@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!--
+Khong cho phep xoa nguoi dung dang Login ok
+Neu Thay doi mat khau sai thi phai bao loi -- Search Form ok
+Hien thi viewCart = ten san pham ok
+Hien thi loi neu nhap khac so trong AddItemToCartServlet - chinh bang cach bat buoc nhap so
+Mapping ok
+Chuyen EL ok --> 
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Login Page</h1>
+        <form action="loginController" method="POST">
+            Username <input type="text" name="txtUserName" value="" /> <br/>
+            Password <input type="password" name="txtPassword" value="" /> <br/>
+            
+            <input type="submit" value="Login" name="btAction" /> 
+            
+            <input type="reset" value="Reset" /> </br>
+            
+            <!--<input type="submit" value="View Product" name="btAction" />-->
+            
+            
+        </form>
+        </br> <a href="loadProductPage">View Product</a>
+        </br> <a href="CreateNewAccountPage">Click here to Sign Up</a>
+        
+    </body>
+</html>
